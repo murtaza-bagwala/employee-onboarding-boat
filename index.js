@@ -6,7 +6,7 @@ import { FaissStore } from "@langchain/community/vectorstores/faiss";
 
 
 export const run = async () => {
-    const OPEN_API_KEY = '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'
+    const OPEN_API_KEY = ''
     const loader = new CheerioWebBaseLoader(
     "https://github.com/MethodologyDev/Methodology/"
     );
